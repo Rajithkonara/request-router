@@ -101,7 +101,7 @@
         <snapshotRepository>
             <id>wso2Telco.snapshots</id>
             <name>Snapshot repo</name>
-            <url>http://maven.wso2telco.com/nexus/content/repositories/snapshots</url>
+            <url>file:///home/rajithk/Documents/repos/releases</url>
         </snapshotRepository>
         <repository>
             <id>wso2telco.releases</id>
@@ -112,8 +112,8 @@
 
     <scm>
         <url>https://github.com/manojlh/request-router.git</url>
-        <developerConnection>scm:git:https://github.com/manojlh/request-router.git</developerConnection>
-        <connection>scm:git:https://github.com/manojlh/request-router.git</connection>
+        <developerConnection>scm:git:https://github.com/Rajithkonara/request-router.git</developerConnection>
+        <connection>scm:git:https://github.com/Rajithkonara/request-router.git</connection>
         <tag>HEAD</tag>
     </scm>
 
@@ -128,21 +128,6 @@
                     <preparationGoals>clean install</preparationGoals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <arguments>-Dmaven.javadoc.skip=true</arguments>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.mortbay.jetty</groupId>
-                <artifactId>jetty-maven-plugin</artifactId>
-                <version>8.1.8.v20121106</version>
-                <configuration>
-                    <connectors>
-                        <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
-                            <port>8080</port>
-                            <maxIdleTime>60000</maxIdleTime>
-                        </connector>
-                    </connectors>
-                    <stopKey>stop</stopKey>
-                    <stopPort>8089</stopPort>
                 </configuration>
             </plugin>
         </plugins>
