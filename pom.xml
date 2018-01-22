@@ -106,7 +106,7 @@
         <repository>
             <id>wso2telco.releases</id>
             <name>release repo</name>
-            <url>http://maven.wso2telco.com/nexus/content/repositories/releases/</url>
+            <url>file:///home/rajithk/Documents/repos/releases</url>
         </repository>
     </distributionManagement>
 
