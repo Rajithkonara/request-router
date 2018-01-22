@@ -3,7 +3,7 @@
     <groupId>com.wso2telco.gateway</groupId>
     <artifactId>RequestRouter</artifactId>
     <packaging>war</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <name>RequestRouter</name>
 
     <properties>
@@ -113,7 +113,7 @@
         <url>https://github.com/manojlh/request-router.git</url>
         <developerConnection>scm:git:https://github.com/Rajithkonara/request-router.git</developerConnection>
         <connection>scm:git:https://github.com/Rajithkonara/request-router.git</connection>
-        <tag>v1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
